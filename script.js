@@ -1,0 +1,1 @@
+function jogar(j){let o=['pedra','papel','tesoura'][Math.floor(Math.random()*3)];let r=j==o?'Empate':j=='pedra'&&o=='tesoura'||j=='tesoura'&&o=='papel'||j=='papel'&&o=='pedra'?'Você venceu!':'Você perdeu!';document.getElementById('res').textContent=`Você: ${j} | Bot: ${o} → ${r}`;}
